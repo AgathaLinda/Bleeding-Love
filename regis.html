@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Registrasi</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $("#regis").hide();
+    $("#slogan").fadeOut(8000);
+    $("#regis").fadeIn(15000);
+  });
+  </script>
+</head>
+<body>
+  ` <div id="slogan">
+      <p>Jika kau bisa mati untukku, kenapa kau tidak bisa tetap hidup untukku? <br>~ Anabel ~</p>
+    </div>
+    <div id="regis">
+      <form method="POST" action="register.php">
+        <h1>Registrasi</h1>
+        <div>
+          <input type="text" placeholder="Nama" id="nama" name="nama" />
+        </div>
+        <div>
+          <input type="text" placeholder="Nomor HP" required="" id="nohp" name="nohp" />
+        </div>
+        <div>
+          <input type="text" placeholder="Alamat" required="" id="alamat"name="alamat" />
+        </div>
+        <div>
+          <input type="submit" value="Selesai" />
+        </div>
+      </form>    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+	width: 960px;
+	height: 600px;
+	margin: auto;
+	background: url('back.jpg') no-repeat fixed center;
+}
+
+h3{
+	font-size: 20pt;
+	font-family: comic;
+}
